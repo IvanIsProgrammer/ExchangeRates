@@ -15,3 +15,6 @@ The settings are made in the file: application.properties
            "url":String // url of gif
           }
            
+           
+# Tests
+- Tests locate in class ExchangeratesApplicationTests
