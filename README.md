@@ -8,8 +8,8 @@ The settings are made in the file: application.properties
 - gifs.api_key => API KEY of https://developers.giphy.com
 
 # Request
-- http://host:port/api/rate?currency=XXX
-- XXX //Rate ISO Code
+- http://host:port/api/rate
+- Param: currency=XXX     //XXX - currency ISO Code (default: USD)
 
 # Response 
 - Header => application/json
