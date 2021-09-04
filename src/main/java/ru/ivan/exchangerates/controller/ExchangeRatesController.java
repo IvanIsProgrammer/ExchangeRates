@@ -70,7 +70,7 @@ public class ExchangeRatesController {
     private Double getRate(String date, String currency) {
         /*
         Для указания базовой волюты нужна ПЛАТНАЯ подписка на openexchangerates.org!
-        Я высчитываю курс валюты исходя из базового курса Доллара США (USD), так как ключ бесплатный.
+        Я высчитываю курс валюты исходя из базового курса Доллара США (USD), так как ключ бесплатный
          */
 
         String response = exchangeRatesClient.getExchangeRates(env.getProperty("rates.app_id"), date);
