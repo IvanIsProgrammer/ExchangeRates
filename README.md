@@ -7,6 +7,10 @@ The settings are made in the file: application.properties
 - rates.app_id => App ID of https://docs.openexchangerates.org
 - gifs.api_key => API KEY of https://developers.giphy.com
 
+# Request
+- http://host:port/api/rate?currency=XXX
+- XXX //Rate ISO Code
+
 # Response 
 - Header => application/json
 - Body => {
